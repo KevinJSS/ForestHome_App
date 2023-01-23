@@ -43,6 +43,7 @@ h1,
 h2,
 h3 {
     font-weight: 900;
+    line-height: 1.5;
     margin: 1rem 0 4rem 0;
 }
 
@@ -51,11 +52,25 @@ h1 {
 }
 
 h2 {
-    font-size: 5.8rem;
+    font-size: 4.5rem;
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 4rem;
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4.8rem;
+    }
+    
+    h2 {
+        font-size: 5.8rem;
+    }
+    
+    h3 {
+        font-size: 5rem;
+    }
 }
 
 li {
@@ -64,6 +79,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+p {
+    padding: 1rem 0;
 }
 
 img {
@@ -94,8 +113,20 @@ button {
     margin-top: 5rem;
 }
 
+.pt-5 {
+    padding-top: 5rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
 .mb-5 {
     margin-bottom: 5rem;
+}
+
+.pb-5 {
+    padding-bottom: 5rem;
 }
 
 .btn {
@@ -274,4 +305,40 @@ button {
         font-size: 1.8rem;
     }
 }
+
+/*-----------------
+----- ABOUT US ----
+-------------------*/
+.about-us {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url("../images/nosotros.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.about-content {
+    background-color: var(--light-color);
+    padding: 0 3rem 3rem 3rem;
+}
+
+@media (min-width: 992px) {
+    .about-us {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-content {
+        grid-column: 2 / 4;
+    }
+}
+
+.about-content h2 {
+    margin-bottom: 2rem;
+}
+
+.about-content p {
+    margin-bottom: 1rem;   
+}
+
+
 
