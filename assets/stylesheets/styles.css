@@ -364,6 +364,16 @@ button {
     background-size: auto 50%;
 }
 
+@media (min-width: 580px) {
+    .basic {
+        background-size: 100% auto;
+    }
+    
+    .elite {
+        background-size: 100% auto;
+    }
+}
+
 @media (min-width: 768px) {
     .model {
         grid-template-columns: repeat(2, 1fr);
@@ -417,6 +427,7 @@ button {
 .gallery-content img {
     object-fit: cover;
     height: 100%;
+    width: 100%;
 }
 
 .gallery-content {
@@ -425,7 +436,7 @@ button {
     gap: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .gallery-content {
         grid-template-columns: repeat(2, 1fr);
     }
