@@ -1,7 +1,7 @@
 # ForestHome_App
 Responsive (Front-End) Prototype of a Forest House Lodging App
 
-`Website:` <a href="https://arquitectura-bosque-kevjs.netlify.app/" target="_blank">Live Demo</a>
+`Website:` https://arquitectura-bosque-kevjs.netlify.app/
 
 #### Prototype preview
 ![hero](https://user-images.githubusercontent.com/103754829/214370092-5635f6b5-5151-46f8-9f39-ceb0581c1650.png)
