@@ -416,5 +416,74 @@ button {
     }
 }
 
+/*----------------
+----- GALLERY ----
+------------------*/
+.gallery h2 {
+    margin-bottom: 2rem;
+}
+
+.gallery-content img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.gallery-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .gallery-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-content .image:nth-child(2) {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+    
+    .gallery-content .image:nth-child(6) {
+        grid-row: 2 / 4;
+    }
+    
+    .gallery-content .image:nth-child(3) {
+        grid-row: 3 / 5;
+        grid-column: 2 / 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .gallery-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery-content img {
+        object-fit: unset;
+        height: auto;
+    }
+
+    .gallery-content .image:nth-child(2) {
+        grid-row: 2 / 4;
+        grid-column: 1 / 2;
+    }
+
+    .gallery-content .image:nth-child(3) {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+
+    .gallery-content .image:nth-child(4) {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+
+    .gallery-content .image:nth-child(6) {
+        grid-row: 1 / 3;
+        grid-column: 3 / 4;
+    }
+}
+
 
 
