@@ -1,20 +1,59 @@
-# ForestHome_App - ![Netlify Status](https://api.netlify.com/api/v1/badges/d37b42e7-7a95-43a7-91a6-2935333ac7de/deploy-status)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/103754829/216667358-861ba52e-b8be-4929-8056-91028e7d7dec.png" width="400px" height="auto"/>
 
-Responsive (Front-End) Prototype of a Forest House Lodging App
+  <div>
+    <h1>FOREST HOME APP</h1>
+  </div>
+</div>
 
-`Website Demo:` https://arquitectura-bosque-kevjs.netlify.app/
+<p align="center">Responsive Frontend Prototype of a Forest House Lodging App</p>
 
-#### Prototype preview
-![hero](https://user-images.githubusercontent.com/103754829/214370092-5635f6b5-5151-46f8-9f39-ceb0581c1650.png)
-![about-us](https://user-images.githubusercontent.com/103754829/214370144-0c1661c8-a431-43b3-9fda-ad33d69a9cdb.png)
-![models](https://user-images.githubusercontent.com/103754829/214370963-d77d1f63-42b9-4fc1-a8ec-3b5c96b640d8.png)
-![gallery-and-footer](https://user-images.githubusercontent.com/103754829/214370260-255d92fe-b139-4f9d-8838-43c5e5ea8aaf.png)
+<div align="center">
+  <h3><a href="https://arquitectura-bosque-kevjs.netlify.app/">➡️ LIVE DEMO</a></h3>
+  <hr/>
+</div> 
 
-### Build With:
-* HTML
-* CSS
+<img src="https://user-images.githubusercontent.com/103754829/216668047-965d1518-f87f-4da4-8a68-c324a3cce52b.png" alt="Project Preview"/>
 
-### Developers:
+## BUILT WITH
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100"/>
+  <span>&nbsp;&nbsp;</span>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="100" height="100"/>
+</div>
+
+<br/>
+
+<div align="center">
+    <strong>HTML5</strong>
+    <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3</strong>
+</div>
+
+## PREREQUISITES
+Before you begin, make sure you have met the following requirements:
+* <a href="https://git-scm.com/downloads" target="_blank">Git</a> must be installed on your operating system.
+
+## INSTALLATION
+To try <strong>Nucleus eWallet</strong>, follow these steps:
+
+Linux and macOS:
+```
+sudo git clone git@github.com:KevinJSS/ForestHome_App.git
+```
+
+Windows:
+```
+git clone git@github.com:KevinJSS/ForestHome_App.git
+```
+
+## DEVELOPERS
 * Kevin Alvarado
+* <a href="https://github.com/codigoconjuan">Juan Pablo de la Torre's</a> "CSS The Complete Guide" course.
 
-_Developed in 2023_
+<hr/>
+
+<div align="center">
+  <strong><i>Developed in 2023</i></strong>
+</div>
