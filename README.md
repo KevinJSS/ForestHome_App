@@ -40,7 +40,7 @@ To try <strong>ForestHome_App</strong>, follow these steps:
 
 Linux and macOS:
 ```
-sudo git clone git@github.com:KevinJSS/ForestHome_App.git
+$ sudo git clone git@github.com:KevinJSS/ForestHome_App.git
 ```
 
 Windows:
